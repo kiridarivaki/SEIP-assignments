@@ -3,5 +3,5 @@
 
 ## Assignments
 
-1.AI Ethics: contributed content (module "AI in Media") to guide.md in ai-ethics repo 
-2.CI/CD Tools: 
+1. AI Ethics: contributed content (module "AI in Media") to guide.md in ai-ethics repo 
+2. CI/CD Tools: 
