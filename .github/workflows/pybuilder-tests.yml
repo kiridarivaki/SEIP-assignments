@@ -1,0 +1,32 @@
+name: PyBuilder Test CI
+
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+    branches: ["main"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          
+      - name: Set PYTHONPATH
+        run: export PYTHONPATH=$PYTHONPATH:/skillsync
+      
+      - name: Navigate to project directory
+        run: cd skillsync
+      
+      - name: Install PyBuilder
+        run: pip install pybuilder
+      
+      - name: Run PyBuilder tests
+        run: pyb run_unit_tests
