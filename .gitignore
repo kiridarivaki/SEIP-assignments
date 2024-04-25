@@ -1,1 +1,3 @@
-#Files Git should ignore will be added
+__pycache__/
+*.pyc
+skillsync/.pybuilder/
