@@ -1,5 +1,5 @@
 import math
-from constants import PROF_LEVEL_VALUES 
+from src.main.python.constants import PROF_LEVEL_VALUES 
 
 # Dictionaries to store goals and achievements with unique IDs as keys
 goals = []

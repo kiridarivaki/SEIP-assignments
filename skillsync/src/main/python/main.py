@@ -1,7 +1,7 @@
 import argparse
 import sys
-import models
-from constants import VALID_COMMANDS
+import src.main.python.models
+from src.main.python.constants import VALID_COMMANDS
 
 def main():
     print("Welcome to SkillSync! Here is a list of commands you can use the app: ")
