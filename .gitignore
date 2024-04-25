@@ -1,3 +1,10 @@
+#ignore virtual environments
+venv/
+env/
+#ignore build artifacts, reports and temporary files
+target/
 __pycache__/
 *.pyc
+#ignore PyBuilder specific files
+pybuilder_error.log
 skillsync/.pybuilder/
