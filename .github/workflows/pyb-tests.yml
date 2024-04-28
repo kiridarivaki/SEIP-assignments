@@ -19,9 +19,16 @@ jobs:
         with:
           python-version: '3.10'
 
-      - name: Set PYTHONPATH
-        run: export PYTHONPATH=$PYTHONPATH:/skillsync
+      - name: Create Virtual Environment
+        if: matrix.os == 'ubuntu-latest'
+        run: python -m venv venv
 
+      - name: Activate and Set PYTHONPATH
+        if: matrix.os == 'ubuntu-latest'
+        run: |
+          source venv/bin/activate
+          export PYTHONPATH=$PYTHONPATH:/skillsync
+          
       - name: Navigate to project directory
         run: cd skillsync
 
