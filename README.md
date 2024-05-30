@@ -34,4 +34,4 @@ skillsync
 </p>
 
 - **Fuzzing exercises**
-<p>More info here [fuzzing.md](Fuzzing-Module-SEiP/fuzzing.md)</p>
+<p>More info here [fuzzing.md](fuzzing.md)</p>
