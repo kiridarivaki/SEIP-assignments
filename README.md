@@ -34,4 +34,4 @@ skillsync
 </p>
 
 - **Fuzzing exercises**
-<p>More info here [fuzzing.md](fuzzing.md)</p>
+<p>Available at <a href="https://github.com/kiridarivaki/SEIP-assignments/blob/security-playground/fuzzing.md">fuzzing.md<a/></p>
